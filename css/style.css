@@ -707,7 +707,7 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
   padding:0;
 }
 
-.my_flex-footer-global  li:first-child{
+.my_flex-footer-global li:first-child{
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -715,6 +715,35 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
   opacity:.7;
   margin-bottom: 5px;
 }
+
+.footer_bottom-flex{
+  width: 90%;
+  border-top:1px solid hsla(0,0%,100%,.5);
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.social_flex{
+  display: flex;
+  justify-content: center;
+}
+
+ ul.social_flex li a{
+  color: hsla(0,0%,100%,.5);
+  text-decoration: none;
+}
+
+ ul.social_flex li a i{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* .logo_footer-flex,
+.social_flex{
+ width: calc(100% / 2);
+} */
 
 
 
@@ -814,8 +843,6 @@ text-decoration: none;
     width: 100%;
   }
 
-
-
   /* quarta sezione */
   .my_style-section4 img{
     max-width: 12%;
@@ -823,5 +850,15 @@ text-decoration: none;
 
   .my_style-section2 img {
     width: 10%;
+  }
+
+  /* footer */
+  .my_flex-footer-global{
+    justify-content: flex-start;
+  }
+
+  .flexy_footer{
+    width: calc(100% / 2);
+    padding-top: 50px;
   }
 }

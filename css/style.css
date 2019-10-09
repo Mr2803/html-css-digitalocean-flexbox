@@ -536,6 +536,7 @@ p.subtitle{
   min-height: 600px;
   justify-content: center;
   flex-direction: column;
+  background: lightblue;
 }
 
 .my_div-title{
@@ -747,6 +748,12 @@ text-decoration: none;
     color:hsla(0,0%,100%,.5);
     /* margin-top: 20%; */
   }
+
+  .my_flexy{
+    width:50%;
+  }
+
+
 }
 
 @media screen and (max-width: 991px){

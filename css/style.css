@@ -532,10 +532,11 @@ p.subtitle{
 /* quarta sezione */
 .my_flex-container-global{
   display:flex;
-  width:100%;
+  width:80%;
   min-height: 600px;
   justify-content: center;
   flex-direction: column;
+  margin:auto;
 }
 
 .my_div-title{
@@ -546,7 +547,6 @@ p.subtitle{
 }
 
 .my_div-colonne{
-  padding-left: 150px;
   width: 100%;
   display:flex;
   align-items: center;
@@ -682,7 +682,44 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
 }
 
 /* footer */
-.my_style-footer{
+
+.container-fluid.my_style-footer{
+  min-height: 500px;
+}
+
+.my_flex-footer-global{
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+  background: #010E28;
+  color:white;
+  margin: auto;
+  width: 80%;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.flexy_footer{
+  width: calc(100% / 5);
+}
+
+.my_flex-footer-global ul{
+  padding:0;
+}
+
+.my_flex-footer-global  li:first-child{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.my_flex-footer-global  li:not(:first-child){
+  opacity:.7;
+  margin-bottom: 5px;
+}
+
+
+
+
+/* .my_style-footer{
   background: #010E28;
   color:white;
   padding-top: 70px;
@@ -730,7 +767,7 @@ text-decoration: none;
 .my_style-copyright p{
   opacity:.7;
   font-size: 18px;
-}
+} */
 
 /* media query */
 @media screen and (max-width:1199px){

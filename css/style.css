@@ -266,6 +266,11 @@ background: url(../img/svg11.svg);
   font-weight: lighter;
 }
 
+.topnav-flex{
+  display:flex;
+  justify-content: space-between;
+}
+
 .row.my_border{
   padding:5px;
   top:0;

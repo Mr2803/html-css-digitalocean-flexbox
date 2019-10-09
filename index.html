@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Digital Ocean By Mr</title>
+  </head>
+  <body>
+    <!-- header con navbar e container grande con sfondo -->
+    <div class="container-fluid my_style-header" style="background:white;">
+      <div class="row my_border visible-lg pos_fix"> <!-- NOTE: navbar superiore -->
+        <div class="col-lg-6">
+          <ul class="my_style-top-nav">
+            <li>NEW</li>
+            <li>Now Avaible</li>
+          </ul>
+        </div>
+        <div class="col-lg-offset-3 col-lg-3 visible-lg">
+          <ul>
+            <li style="color:#5b6987">Docs</li>
+            <li style="color:#5b6987">Support</li>
+            <li style="color:#5b6987">Sales</li>
+            <li style="color:#5b6987">Sign in</li>
+          </ul>
+        </div>
+      </div> <!-- /NOTE: chiusura navbar superiore -->
+      <div class="row my_style-bot-nav visible-lg pos_fix"> <!-- NOTE: navbar inferiore -->
+        <div class="col-lg-1 visible-lg">
+          <img src="img/digitalocean_logo.png" alt="">
+        </div>
+        <div class="col-lg-6 visible-lg ">
+          <ul>
+          <li class="drop-cont">
+            <div><a href="#" style="color:#031b4e" >Products ▼</a><!-- NOTE:div contenitore drop-down -->
+              <div class="container-fluid drop-glob"> <!-- NOTE: inizio dropdown -->
+                <div class="row my_bord-bot">
+                  <div class="col-xs-12">
+                    <div class="container my_margin_top-bot">
+                      <div class="row">
+                        <div class="col-lg-5 my_dropdown-style">
+                          <h4>Featured products</h4>
+                          <img src="img/svg4.svg" alt="">
+                          <ul>
+                            <li><a href="#">Droplets</a></li>
+                            <li><a href="#">Scalable compute services</a></li>
+                          </ul>
+                          <img src="img/svg15.svg" alt="">
+                          <ul>
+                            <li><a href="#">Kubernetes</a></li>
+                            <li><a href="#">Managed Kubernetes clusters</a></li>
+                          </ul>
+                          <img src="img/svg20.svg" alt="">
+                          <ul>
+                            <li><a href="#">Databases</a></li>
+                            <li><a href="#">Worry-free setup & maintenance</a></li>
+                          </ul>
+                          <img src="img/svg39.svg" alt="">
+                          <ul>
+                            <li><a href="#">Spaces</a></li>
+                            <li><a href="#">Simply object storage</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-7">
+                          <div class="row my_dropdown-style2">
+                            <div class="col-lg-3 bg_1">
+                              <ul>
+                                <li>computer</li>
+                                <li><a href="#">Droplets</a></li>
+                                <li><a href="#">Kubernetes</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-5 bg_2">
+                              <ul>
+                                <li>managed database</li>
+                                <li><a href="#">MySQL</a></li>
+                                <li><a href="#">PostgreSQL</a></li>
+                                <li><a href="#">Redis</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4 bg_3">
+                              <ul>
+                                <li>developer tool</li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">CLI</a></li>
+                                <li><a href="#">Monitoring</a></li>
+                                <li><a href="#">Teams</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-3 bg_4">
+                              <ul>
+                              <li>Storage</li>
+                              <li><a href="#">Spaces Object Storage</a></li>
+                              <li><a href="#">Volumes Block Storage</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-4 bg_5">
+                              <ul>
+                              <li>Networking</li>
+                              <li><a href="#">Cloud Firewalls</a></li>
+                              <li><a href="#">Load Balancers</a></li>
+                              <li><a href="#">Floating IPs</a></li>
+                              <li><a href="#">DNS</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row all_product">
+                  <div class="col-lg-12">
+                    <a href="#" style="color:#0069ff;">See all product ></a>
+                  </div>
+                </div>
+              </div>  <!-- NOTE: fine dropdown -->
+            </div><!-- NOTE: fine div contenitore drop-down -->
+          </li>
+          <li><a href="#" style="color:#031b4e">Marketplace</a></li>
+          <li><a href="#" style="color:#031b4e">Customers</a></li>
+          <li><a href="#" style="color:#031b4e">Partners</a></li>
+          <li><a href="#" style="color:#031b4e">Community ▼</a></li>
+          <li><a href="#" style="color:#031b4e">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-offset-4 col-lg-1 visible-lg">
+          <span>Sign up</span>
+        </div>
+      </div> <!-- NOTE: chiusura navbar inferiore -->
+      <div class="row bg-header">
+        <div class="col-xs-12">
+          <div class="row my_style-mobile-nav hidden-lg "><!-- NOTE: navbar mobile -->
+            <div class="col-xs-3">
+              <img src="img/logo-bianco.png" alt="" class="white_logo">
+            </div>
+            <div class="col-xs-offset-8 col-xs-1">
+              <div class="drop_mob">
+                <i class="fas fa-bars"></i>
+                <div class="container drop_glob-mob" style="background:#f3f6f9"><!-- NOTE: toggle -->
+                  <div class="row top_row">
+                    <div class="col-xs-12">
+                      <ul>
+                        <li class="bg_drop-mob1"><a href="#">Droplets</a></li>
+                        <li class="bg_drop-mob2"><a href="#">Kubernetes</a></li>
+                        <li class="bg_drop-mob3"><a href="#">Managed database</a></li>
+                        <li class="bg_drop-mob4"><a href="#">Spaces</a></li>
+                        <li class="bg_drop-mob5"><a href="#">Load Balancers</a></li>
+                        <li class="bg_drop-mob6"><a href="#">Block storage</a></li>
+                        <li class="bg_drop-mob7"><a href="">marketplace</a></li>
+                        <li class="bg_drop-mob8"><a href="">API Documentation</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row middle_row">
+                    <div class="col-xs-6">
+                      <ul>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Hatch</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-xs-6">
+                      <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Sign in</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row bottom_row">
+                    <div class="col-xs-12">
+                      <button type="button" class="btn btn-primary btn-lg btn-block" style="background:#0069ff">Sign up</button>
+                    </div>
+                  </div>
+                </div><!-- NOTE: chiusura toggle -->
+              </div>
+            </div>
+          </div><!-- NOTE: chiusura navbar mobile -->
+          <div class="container">
+            <div class="row my_padding-header">
+              <div class="col-xs-12 col-md-6">
+                <h1 style="color:white;">Welcome to the developer cloud</h1>
+                <p class="sub_h1" style="color:white;">DigitalOcean makes it simple to launch in the cloud and scale up as you grow—with an intuitive control panel, predictable pricing, team accounts and more.</p>
+              </div>
+              <div class="col-xs-12 col-md-6 my_style-form">
+                <h3 style="color:#031B4E">Deploy in seconds</h3>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="Inputtext" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="Inputemail" placeholder="Email address">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="InputPassword" placeholder="Create a password">
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block" style="background:#0069ff">Create your account</button>
+                <p><span class="display_block my_line">or sign up with</span></p>
+                <button type="button" class="btn btn-primary btn-lg my_style-button" style="background:#f2f8ff"><img src="img/svg27.svg" alt="" class="img_button"> Google</button>
+                <button type="button" class="btn btn-default btn-lg my_style-button" style="background:#f2f8ff"><img src="img/svg28.svg" alt="" class="img_button"> Github</button>
+                <span class="display_block terms">By signing up you agree to the <a href="#">Terms of Service</a>.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /header con navbar e container grande con sfondo -->
+
+    <!-- sezione piccola con 6 img una accanto all'altra che poi diventano a gruppi di 2 -->
+    <div class="container-fluid" style="background:#F3F5F9">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="container my_style-section1">
+            <h5>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h5>
+            <ul>
+              <li><img src="img/docker-bab60eeb.png" alt="" class="size"></li>
+              <li><img src="img/gitlab-166e2067.png" alt="" class="size"></li>
+              <li><img src="img/slack-e20293da.png" alt="" class="size"></li>
+              <li><img src="img/hashicorp-4431df79.png" alt="" class="size"></li>
+              <li><img src="img/wework-be6eab32.png" alt="" class="size"></li>
+              <li><img src="img/splunk-06b17d75.png" alt="" class="size"></li>
+            </ul>
+            <a href="#">View customer stories ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /sezione piccola con 6 img una accanto all'altra che poi diventano a gruppi di 2 -->
+
+    <!-- container fluid con titolo centrale -->
+    <div class="container-fluid my_style-section2">
+      <h2 style="color:#031B4E">Deploy and scale seamlessly</h2>
+      <p class="subtitle">Our optimized configuration process saves your team time when running
+        and scaling distributed applications, AI & machine learning workloads,hosted services, client websites, or CI/CD environments.</p>
+      <div class="row my_style-margin">
+        <div class="col-xs-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-offset-1 col-lg-2 my_style-ul-li">
+                <ul>
+                  <li>Deploy</li>
+                  <li>Scale</li>
+                  <li>Store</li>
+                  <li>Secure</li>
+                  <li>Monitor</li>
+                </ul>
+              </div>
+              <div class="col-lg-offset-2 col-lg-6">
+                <div class="row my_style-text">
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="img/svg15.svg" alt="">
+                    <h6>Kubernetes in minutes</h6>
+                    <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes. </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="img/svg31.svg" alt="">
+                    <h6>Flexible compute types</h6>
+                    <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload. </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="img/svg32.svg" alt="">
+                    <h6>1-Click App Marketplace</h6>
+                    <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="img/svg33.svg" alt="">
+                    <h6>Global availability</h6>
+                    <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /container fluid con titolo centrale -->
+
+    <!-- blocco enorme con tutto al centro anche da smartphone -->
+    <div class="container-fluid my_style-section3">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 style="color:#031B4E">Deploy and scale seamlessly</h3>
+          <p class="subtitle">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+          <img src="img/screenshot-create-kubernetes-cluster-4a930955.jpg" alt="">
+          <p class="subtitle my_details">Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications.</p>
+        </div>
+      </div>
+    </div>
+    <!--/ blocco enorme con tutto al centro anche da smartphone  -->
+
+    <!-- blocco diviso in 4 in lg e in 2 da tablet  -->
+    <div class="container-fluid my_style-section4">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 style="color:#031B4E">Built for business</h3>
+          <div class="container">
+            <div class="row my_style-text my_style-margin">
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="img/svg50.svg" alt="">
+                <h6>Reliable platform</h6>
+                <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                <a href="#">Security ></a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="img/svg11.svg" alt="">
+                <h6>Predictable pricing</h6>
+                <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure. </p>
+                <a href="#">Pricing ></a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="img/svg52.svg" alt="">
+                <h6>World-class service</h6>
+                <p>Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
+                <a href="#">Support ></a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="img/svg18.svg" alt="">
+                <h6>Security and compliance</h6>
+                <p>Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS. </p>
+                <a href="#">Compliance ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /blocco diviso in 4 in lg e in 2 da tablet  -->
+
+    <!-- blocco enorme titolo al centro e table -->
+    <div class="container-fluid my_style-section5">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 style="color:white">Service your customers around the world from 12 data centers.</h3>
+          <div class="container ">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <table class="table">
+                  <tbody>
+                      <tr>
+                        <th scope="row" class="my_first">AMS2</th>
+                        <td class="my_first">Amsterdam, Netherlands</td>
+                        <td class="my_first"></td>
+                        <td class="my_first"><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">AMS3</th>
+                        <td>Amsterdam, Netherlands</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">BLR1</th>
+                        <td>Bangalore, India</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">FRA1</th>
+                        <td>Frankfurt, Germany</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">LON1</th>
+                        <td>London, UK</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">NYC1</th>
+                        <td>New York, USA</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              <div class="col-xs-12 col-md-6">
+                <table class="table">
+                  <tbody>
+                      <tr>
+                        <th scope="row" class="my_first">NYC2</th>
+                        <td class="my_first">New York, USA</td>
+                        <td class="my_first"></td>
+                        <td class="my_first"><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">NYC3</th>
+                        <td>New York, USA</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">SFO1</th>
+                        <td>San Francisco, USA</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">SFO2</th>
+                        <td>San Francisco, USA</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">SGP1</th>
+                        <td>Singapore</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">TOR1</th>
+                        <td>Toronto, Canada</td>
+                        <td></td>
+                        <td><a href="#">Test speed></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /blocco enorme titolo al centro e table-->
+
+    <!-- blocco enorme con tutto al centro anche da smartphone (copia sopra)-->
+    <div class="container-fluid my_style-section6" style="background:#F3F5F9">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 style="color:#031B4E">Development teams love DigitalOcean</h3>
+          <div class="container" style="background:white">
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/rockerbox-logo-51462da2.png" alt="">
+                <p>“We have been able to make scaling the technical infrastructure of our business cost effective and&nbsp;efficient.”</p>
+                <cite>Rick O' Toole</cite>
+                <cite class="margin-bot">Co-Founder and CTO</cite>
+                <a href="#" class="margin-bot">Read story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /blocco enorme con tutto al centro anche da smartphone (vedi sopra)-->
+
+    <!-- container-fluid con div centrale -->
+    <div class="container-fluid my_style-section7">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Get started now</h3>
+          <button type="button" class="btn btn-primary btn-lg my_style-button" style="background:#f2f8ff">Create your account</button>
+        </div>
+      </div>
+    </div>
+    <!-- /container-fluid con div centrale  -->
+
+    <!-- footer -->
+    <div class="container-fluid my_style-footer">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="container">
+            <div class="row my_style-border-bott">
+              <div class="col-md-offset-1 col-md-2 col-xs-6">
+                <ul class="my_style-litem">
+                  <li>Company</li>
+                  <li>About</li>
+                  <li>Leadership</li>
+                  <li>Blog</li>
+                  <li>Careers</li>
+                  <li>Partners</li>
+                  <li>Referral Program</li>
+                  <li>Press</li>
+                  <li>Legal & Security</li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-xs-6">
+                <ul class="my_style-litem">
+                  <li>Products</li>
+                  <li>Products Overview</li>
+                  <li>Droplets</li>
+                  <li>Managed Databases</li>
+                  <li>Spaces</li>
+                  <li>Marketplace</li>
+                  <li>Load Balancers</li>
+                  <li>Block Storage</li>
+                  <li>Tools & Integrations</li>
+                  <li>API</li>
+                  <li>Pricing</li>
+                  <li>Documentation</li>
+                  <li>Release Notes</li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-xs-6">
+                <ul class="my_style-litem">
+                  <li>Community</li>
+                  <li>Tutorials</li>
+                  <li>Meetups</li>
+                  <li>Q&A</li>
+                  <li>Write for DOnations</li>
+                  <li>Droplets for Demos</li>
+                  <li>Hatch Startup Program</li>
+                  <li>Shop Swag</li>
+                  <li>Research Program</li>
+                  <li>Currents Research</li>
+                  <li>Open Source</li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-xs-6">
+                <ul class="my_style-litem">
+                  <li>Solutions</li>
+                  <li>Web & mobile apps</li>
+                  <li>Website hosting</li>
+                  <li>Big data</li>
+                  <li>prova</li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-xs-6">
+                <ul class="my_style-litem">
+                  <li>Managed services</li>
+                  <li>Support</li>
+                  <li>Sales</li>
+                  <li>Report Abuse</li>
+                  <li>System Status</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row my_style-copyright">
+              <div class="col-xs-12 col-lg-6">
+                <p>© 2019 DigitalOcean, LLC. All rights reserved.</p>
+              </div>
+              <div class="col-xs-offset-6 col-xs-6 col-lg-offset-3 col-lg-3">
+                <ul class="social">
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /footer -->
+  </body>
+</html>

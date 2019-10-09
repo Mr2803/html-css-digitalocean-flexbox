@@ -308,6 +308,20 @@ padding: 5px 10px;
 border-radius: 3px;
 }
 
+.flex_my_navbar.hidden-lg{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex_my_navbar.hidden-lg img{
+  max-width: 60%;
+}
+
+.flex_my_navbar.hidden-lg i{
+  font-size: 30px;
+}
+
 .bg-header{
   min-height: 700px;
   background-image: url(../img/bg-home-1-d54581d7.jpg);
@@ -688,7 +702,7 @@ text-decoration: none;
     font-size: 25px;
     vertical-align: middle;
     color:hsla(0,0%,100%,.5);
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
 }
 

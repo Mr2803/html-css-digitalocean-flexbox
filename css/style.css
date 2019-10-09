@@ -536,7 +536,6 @@ p.subtitle{
   min-height: 600px;
   justify-content: center;
   flex-direction: column;
-  background: lightblue;
 }
 
 .my_div-title{
@@ -547,6 +546,7 @@ p.subtitle{
 }
 
 .my_div-colonne{
+  padding-left: 150px;
   width: 100%;
   display:flex;
   align-items: center;
